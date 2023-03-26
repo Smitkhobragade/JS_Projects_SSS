@@ -21,3 +21,4 @@ If you have any questions or feedback about this repository, please contact the 
 - [Smitkhobragade](https://github.com/Smitkhobragade)
 
 ## Click on the below link 👇🏻 to view the projects deployed model
+- https://smitkhobragade.github.io/JS_Projects_SSS/
