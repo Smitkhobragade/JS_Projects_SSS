@@ -154,12 +154,10 @@ const slideImage2 = () => {
   )
 }
 const goNext2 = () => {
-  if(((hour-hour%10)==2) && counter2===4){
-    goNext2()
-    goNext2()
-    goNext2()
-    goNext2()
+  if(((hour-hour%10)/10==2) && counter2===3){
     goNext1()
+    counter2=-1
+    console.log(counter2)
   }
   else if(counter2===9){
       counter2=-1
