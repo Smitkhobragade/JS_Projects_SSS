@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Basic Portfolio</title>
+  </head>
+  <body>
+    <section
+      class="banner relative flex flex-col min-h-[100vh] px-12 py-12 bg-white duration-500"
+    >
+      <header
+        class="absolute top-0 left-0 w-full px-20 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="logo white text-gray-700 text-2xl font-bold duration-500"
+          ><span class="text-cyan-600">My</span>Portfolio_</a
+        >
+        <ul class="nav-list flex gap-6">
+          <li>
+            <a href="#" class="white font-medium text-lg text-gray-700 duration-500"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#" class="white font-medium text-lg text-gray-700 duration-500"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#" class="white font-medium text-lg text-gray-700 duration-500"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a href="#" class="white font-medium text-lg text-gray-700 duration-500"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </header>
+
+      <div class="content self-center relative max-w-[700px] z-10 my-24">
+        <h3 class="hey white font-light text-gray-700 text-3xl duration-500">Hey_</h3>
+        <h2 class="name white font-bold text-6xl text-gray-700 duration-500">
+          I am <span id="text" class="text-pink-600">John</span>
+        </h2>
+        <p class="white text-base my-4 text-gray-600 duration-500">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio fugiat
+          maiores reprehenderit veritatis ullam itaque assumenda, recusandae
+          ratione eveniet autem alias nesciunt obcaecati delectus facilis iste
+          eius enim iusto sequi?
+        </p>
+        <button
+          class="relative bg-cyan-600 text-white border-none outline-none px-10 py-2 text-lg tracking-wider me-2 rounded font-semibold cursor-pointer duration-500"
+        >
+          Hire Me
+        </button>
+        <button
+          class="chat white relative bg-cyan-600 border-none outline-none px-10 py-2 text-lg tracking-wider rounded font-semibold cursor-pointer duration-500 bg-transparent text-gray-600"
+        >
+          <ion-icon
+            name="chatbubbles-outline"
+            class="relative text-pink-600 text-2xl top-1"
+          ></ion-icon>
+          Let's Chat
+        </button>
+      </div>
+      <div class="icons self-center">
+        <ul class="sci flex px-14 gap-6 ">
+          <li>
+            <a href="#" class="white text-2xl duration-200 text-gray-600 hover:text-cyan-600"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" class="white text-2xl duration-200 text-gray-600 hover:text-cyan-600"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" class="white text-2xl duration-200 text-gray-600 hover:text-cyan-600"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" class="white text-2xl duration-200 text-gray-600 hover:text-cyan-600"><ion-icon name="logo-github"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+      <div class="dayNight absolute bottom-12 left-[50%] -translate-x-1/2 w-14 h-14 bg-gray-200 rounded-full text-gray-700 flex justify-center items-center cursor-pointer duration-500 text-xl"><ion-icon name="moon-outline"></ion-icon><ion-icon name="sunny-outline" class="hidden"></ion-icon></div>
+    </section>
+    <script src="MyScript.js"></script>
+  </body>
+</html>
