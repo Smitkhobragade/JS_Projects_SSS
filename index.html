@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;1,300&family=Rowdies:wght@700&family=Scope+One&display=swap" rel="stylesheet">
-  
-  <title>Projects</title>
-  <style>
-    *{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;1,300&family=Rowdies:wght@700&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
 
-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #333;
-}
-.container{
-  position: relative;
-  width: 400px;
-  height: 105px;
-  background: #fff;
-  padding: 28px 32px;
-  overflow: hidden;
-  border-radius: 18px;
-  font-family: 'Poppins',sans-serif;
-}
-  </style>
-</head>
-<body>
+    <title>Projects</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        box-sizing: border-box;
+      }
 
-  
-<div class="container">
-  <ul>
-    <li><a href="./Random_color_genrator/index.html" target="_blank">Random Color Generator</a></li>
-  </ul>
-</div>
-
-  
-</body>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+          45deg,
+          rgb(215, 94, 243),
+          rgb(175, 226, 255)
+        );
+      }
+      .container {
+        position: relative;
+        width: 400px;
+        height: fit-content;
+        padding: 28px 32px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        font-family: "Poppins", sans-serif;
+      }
+      .container ul li {
+        list-style: none;
+      }
+      .container ul li a {
+        text-decoration: none;
+        color: #000;
+        transition: 0.5s;
+      }
+      .container ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li>
+          <a href="./Random_color_genrator/index.html" target="_blank"
+            >Random Color Generator</a
+          >
+        </li>
+        <li>
+          <a href="./Digital_clock/index.html" target="_blank">Digital Clock</a>
+        </li>
+        <li>
+          <a href="./Dark_Mode_Example/index.html" target="_blank"
+            >Dark Mode Protfholio Example</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
