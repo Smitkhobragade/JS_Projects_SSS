@@ -11,6 +11,7 @@ This repository is a collaborative effort between Shreyash, Sahil, and Smit. If 
 ## Projects
 - Random color Generator
 - Digital Clock
+- Basic Dark Mode Website
 
 ## License
 This repository is licensed under the MIT license.
