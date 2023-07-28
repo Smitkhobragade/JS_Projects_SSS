@@ -29,10 +29,10 @@
         justify-content: center;
         background: linear-gradient(
           45deg,
-          rgb(215, 94, 243),
-          rgb(175, 226, 255)
+          rgb(0, 64, 255),
+          rgb(250, 244, 253)
         );
-        padding: 3vw;
+        padding: 0px;
         font-family: "Poppins", sans-serif;
       }
       .container {
@@ -59,12 +59,14 @@
         flex-direction: column;
         /* padding: 5px; */
         margin: 5px;
+        transition : 0.3s; 
       }
       .card img{
         width: 300px;
         height: auto;
         border: 2px solid #ff0;
         border-radius: 8px;
+        filter : blur(0.5px);
       }
       .main1{
         width: 1000px;
@@ -74,10 +76,17 @@
         justify-content: space-around;
         /* outline : 1px solid red; */
       }
+      .card:hover{
+        scale: 1.03;
+      }
+      .card img:hover{
+        box-shadow: 0 0 5px rgb(0, 106, 255);
+        filter : blur(0) saturate(1.2);
+      }
     </style>
   </head>
   <body>
-    <h1>PROJECTS</h1>
+    <h1 style="font-weight: 300; color :rgb(0, 4, 77); text-align: center;">PROJECTS</h1>
     <div class="container">
       <div class="main1">
         <span class="card">
@@ -102,7 +111,7 @@
         </span>
         <span class="card">
           <a href="./Color-Changing-Clock-main/index.html" target="_blank">
-            <img src="./assets/colorchange.jpg" alt=""> -> Color Changing</a>
+            <img src="./assets/colorchange.jpg" alt=""> -> Color Changing Clock</a>
         </span>
         <span class="card">
           <a href="./TO-DO-LIST-main/index.html" target="_blank">
@@ -118,5 +127,6 @@
         </span>
       </div>
     </div>
+    <div style="text-align: center; padding: 5px;">Made with ❤️ by Shreyash & Smit</div>
   </body>
 </html>
