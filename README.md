@@ -14,6 +14,10 @@ This repository is a collaborative effort between Shreyash, Sahil, and Smit. If 
 - Basic Dark Mode Website
 - QR Code (using QR-Code.js cdn)
 - Stop Watch
+- Color Changing Clock
+- Gradient Generator
+- TO do list
+- Weather App
 
 ## License
 This repository is licensed under the MIT license.
