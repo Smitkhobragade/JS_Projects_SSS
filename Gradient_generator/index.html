@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;1,300&family=Rowdies:wght@700&family=Scope+One&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Wait untill page has finished parsing before executing script -->
+  <title>Gradient Generator</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="gradient-box"></div>
+      <div class="row options">
+        <div class="column directions">
+          <p>Directions</p>
+          <div class="select-box">
+            <select name="" id="">
+              <option value="to top">Top</option>
+              <option value="to right top">Right Top</option>
+              <option value="to right">Right</option>
+              <option value="to right bottom">Right Bottom</option>
+              <option value="to bottom">Bottom</option>
+              <option value="to left bottom">Left Bottom</option>
+              <option value="to left">Left</option>
+              <option value="to left top" selected>Left Top</option>
+            </select>
+          </div>
+        </div>
+        <div class="column colors">
+          <p>Colors</p>
+          <input type="color" value="#42b6ee">
+          <input type="color" value="#96ccf8">
+        </div>
+      </div>
+    <textarea class="row" disabled>background: linear-gradient(to left top, #42b6ee, #96ccf8);</textarea>
+    <div class="row buttons">
+      <button class="refresh">Refresh Colors</button>
+      <button class="copy">Copy Code</button>
+    </div>
+  </div>
+</body>
+</html>

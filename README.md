@@ -13,6 +13,7 @@ This repository is a collaborative effort between Shreyash, Sahil, and Smit. If 
 - Digital Clock
 - Basic Dark Mode Website
 - QR Code (using QR-Code.js cdn)
+- Stop Watch
 
 ## License
 This repository is licensed under the MIT license.

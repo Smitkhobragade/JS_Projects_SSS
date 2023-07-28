@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <spannk rel="preconnect" href="https://fonts.googleapis.com" />
+    <spannk rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <spannk
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;1,300&family=Rowdies:wght@700&family=Scope+One&display=swap"
       rel="stylesheet"
     />
@@ -18,12 +18,12 @@
         margin: 0;
         padding: 0;
         border: 0;
-        outline: 0;
+        outline: 0; 
         box-sizing: border-box;
       }
 
       body {
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -32,10 +32,11 @@
           rgb(215, 94, 243),
           rgb(175, 226, 255)
         );
+        padding: 3vw;
       }
       .container {
-        position: relative;
-        width: 400px;
+        /* position: relative; */
+        /* width: 400px; */
         height: fit-content;
         padding: 28px 32px;
         overflow: hidden;
@@ -43,35 +44,78 @@
         border-radius: 18px;
         font-family: "Poppins", sans-serif;
       }
-      .container ul li {
-        list-style: none;
-      }
-      .container ul li a {
+      .container div span a {
         text-decoration: none;
         color: #000;
         transition: 0.5s;
       }
-      .container ul li a:hover {
+      .container div span a:hover {
         text-decoration: underline;
+      }
+      .card{
+        /* background: #000; */
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        /* padding: 5px; */
+        margin: 5px;
+      }
+      .card img{
+        width: 300px;
+        height: auto;
+        border: 2px solid #ff0;
+        border-radius: 8px;
+      }
+      .main1{
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        /* outline : 1px solid red; */
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li>
-          <a href="./Random_color_genrator/index.html" target="_blank"> -> Random Color Generator</a>
-        </li>
-        <li>
-          <a href="./Digital_clock/index.html" target="_blank"> -> Digital Clock</a>
-        </li>
-        <li>
-          <a href="./Dark_Mode_Example/index.html" target="_blank"> -> Dark Mode Protfholio Example</a>
-        </li>
-        <li>
-          <a href="./QR_Generator/index.html" target="_blank"> -> QR Code Generator</a>
-        </li>
-      </ul>
+      <div class="main1">
+        <span class="card">
+          <a href="./Random_color_genrator/index.html" target="_blank">
+            <img src="./assets/color-genrator.jpg" alt=""> -> Random Color Generator</a>
+        </span>
+        <span class="card">
+          <a href="./Digital_clock/index.html" target="_blank">
+            <img src="./assets/digitalclock.jpg" alt=""> -> Digital Clock</a>
+        </span>
+        <span class="card">
+          <a href="./Dark_Mode_Example/index.html" target="_blank">
+            <img src="./assets/darkmode.jpg" alt=""> -> Dark Mode Portfolio Example</a>
+        </span>
+        <span class="card">
+          <a href="./QR_Generator/index.html" target="_blank">
+            <img src="./assets/qr-generator.jpg" alt=""> -> QR Code Generator</a>
+        </span>
+        <span class="card">
+          <a href="./Gradient_generator/index.html" target="_blank">
+            <img src="./assets/gradient-gen.png" alt=""> -> Gradient Generator</a>
+        </span>
+        <span class="card">
+          <a href="./Color-Changing-Clock-main/index.html" target="_blank">
+            <img src="./assets/colorchange.jpg" alt=""> -> Color Changing</a>
+        </span>
+        <span class="card">
+          <a href="./TO-DO-spanST-main/index.html" target="_blank">
+            <img src="./assets/todo.jpg" alt=""> -> To do List</a>
+        </span>
+        <span class="card">
+          <a href="./TO-DO-spanST-main/index.html" target="_blank">
+            <img src="./assets/stopwatch.jpg" alt=""> -> Stop Watch</a>
+        </span>
+        <span class="card">
+          <a href="./Weather_app/index1.html" target="_blank">
+            <img src="./assets/weatherapp.png" alt=""> -> Weather App </a>
+        </span>
+      </div>
     </div>
   </body>
 </html>
